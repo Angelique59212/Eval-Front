@@ -61,6 +61,7 @@ html {
     width: 34%;
     border: 1px solid white;
     padding: 1rem;
+    text-align: center;
 }
 
 a {
@@ -75,6 +76,7 @@ a {
     border: 1px solid white;
     padding: 1rem;
     margin-left: 2rem;
+    text-align: center;
 }
 
 #form {
