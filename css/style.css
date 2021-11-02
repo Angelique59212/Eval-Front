@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#container {
+    width: 95%;
+    margin: 2rem auto;
+    border: 10px solid grey;
+    height: 62rem;
+}
+
+#left {
+    width: 60%;
+    float: left;
+}
+
+#right {
+    width: 40%;
+    float: right;
+    height: 60rem;
+    background-image: url("/img/bradley.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infos {
+    width: 100%;
+}
+
+#text {
+    display: inline-block;
+    width: 66%;
+    height: 20rem;
+    background-color: blue;
+    color: white;
+}
+
+#profile {
+    display: inline-block;
+    width: 34%;
+    height: 20rem;
+    float: right;
+    background-color: orange;
+}
+
+#abstract {
+    width: 100%;
+    padding: 0.8rem;
+    margin-left: 2.3rem;
+}
+
+#button {
+    display: inline-block;
+    float: left;
+    width: 34%;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+    margin: 0 auto;
+}
+
+#contact {
+    display: inline-block;
+    width: 34%;
+    border: 1px solid white;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+#form {
+    width: 100%;
+    margin: 10rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+#send {
+    padding: 0.8rem;
+}
+
+i {
+    padding: 0.4rem;
+}
+
+h1 {
+   margin-left: 3rem;
+   padding: 1rem;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-left: 4rem;
+}
+
+.profil {
+    text-align: center;
+    padding: 2.5rem;
+    width: 41%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i.fa-address-card {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+#experience , #education , #menu , #contacts , #blog , #folio {
+    width: 33.2%;
+    height: 20rem;
+    display: inline-block;
+}
+
+#experience {
+    background-color: #da2b2b;
+    float: left;
+}
+
+#education {
+    background-color: rosybrown;
+}
+
+#blog {
+    background-color: blue;
+}
+
+#menu , #folio {
+    background-color: darkgray;
+}
+
+#contacts {
+    background-color: #da2b2b;
+}
+
+i.fa-spinner , i.fa-book-open , i.fa-book-open , i.fa-blog , i.fa-location-arrow , i.fa-desktop {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+span {
+    font-size: 5rem;
+    color: white;
+}
+
+#menu {
+    float: left;
+}
+
+i.fa-circle {
+    font-size: 1rem;
+    color: grey;
+    float: right;
+}
+
+#white {
+    color: white;
+}
+
+#arrow1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    top: 29rem;
+    left: 1rem;
+    border: 3px solid rgba(255, 255, 255, 0.52);
+    border-radius: 4rem;
+    display: inline-block;
+    width: 4rem;
+    text-align: center;
+    background-color: #00000045;
+}
+
+#arrow2 {
+    display: inline-block;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    top: 29rem;
+    left: 41rem;
+    border: 3px solid rgba(255, 255, 255, 0.52);
+    border-radius: 4rem;
+    width: 4rem;
+    text-align: center;
+    background-color: #00000045;
+}
